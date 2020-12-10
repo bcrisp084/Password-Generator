@@ -84,8 +84,63 @@ var upperCasedCharacters = [
   'Y',
   'Z'
 ];
+function getPasswordOptions() {
 
+  var length = parseInt(
+    prompt('How many characters do you want the password to have?')
+  );
 
+ 
+  if (isNaN(length) === true) {
+    alert('Password length must be a number');
+    return;
+  }
+
+  
+  if (length < 8) {
+    alert('Password length must be at least 8 characters');
+    return;
+  }
+
+  
+  if (length > 128) {
+    alert('Password length must be less than 129 characters');
+    return;
+  }
+
+ 
+  var hasSpecialCharacters = confirm(
+    'Click OK to confirm including the special characters.'
+  );
+
+  
+  var hasNumericCharacters = confirm(
+    'Click OK to confirm including the numeric characters.'
+  );
+
+  
+  var hasLowerCasedCharacters = confirm(
+    'Click OK to confirm including the lowercase characters.'
+  );
+
+ 
+  var hasUpperCasedCharacters = confirm(
+    'Click OK to confirm including the uppercase characters.'
+  );
+
+ 
+  if (
+    hasSpecialCharacters === false &&
+    hasNumericCharacters === false &&
+    hasLowerCasedCharacters === false &&
+    hasUpperCasedCharacters === false
+  ) {
+    alert('You have to select at least one character type');
+    return;
+  }
+
+ 
+ 
 
 
 
