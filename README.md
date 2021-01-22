@@ -1,15 +1,15 @@
 # Password-Generator
 
 
-## technolgies
+## Technolgies
 This program was created using HTML, CSS and Javascript.
 
-##Info
+## Info
 The program alerts the user using pop-ups and asks several questions of the user regarding choices for generating
 the password. First an amount between 8 and 128, than asks if you want special charecters, numbers, uppercase or 
 lowercase letters. After all fields are answered the password is generated. 
 
-##Link
+## Link
 https://bcrisp084.github.io/Password-Generator/
 
 ![image](https://user-images.githubusercontent.com/73912705/105558724-3617f680-5cdd-11eb-81ea-775cfcf86fd8.png)
