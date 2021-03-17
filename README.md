@@ -10,7 +10,8 @@ the password. First an amount between 8 and 128, than asks if you want special c
 lowercase letters. After all fields are answered the password is generated. 
 
 ## Link
-https://bcrisp084.github.io/Password-Generator/
+
+- Here is a link to my deployed application [Link](https://bcrisp084.github.io/Password-Generator/)
 
 ![image](https://user-images.githubusercontent.com/73912705/105558724-3617f680-5cdd-11eb-81ea-775cfcf86fd8.png)
 ![image](https://user-images.githubusercontent.com/73912705/105558816-868f5400-5cdd-11eb-85c1-c4021e887347.png)
